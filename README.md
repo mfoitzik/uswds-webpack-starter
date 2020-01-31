@@ -56,5 +56,5 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## Acknowledgments
 
-* This project leverages the work done by the team that created the <a href="https://designsystem.digital.gov/" target="_blank">USWDS</a>]
+* This project leverages the work done by the team that created the <a href="https://designsystem.digital.gov/" target="_blank">USWDS</a>
 
