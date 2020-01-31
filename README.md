@@ -1,4 +1,4 @@
-# Project Title
+# USWDS (United States Web Design System) Webpack Starter Project
 
 I stumbled upon the USWDS (United States Web Design System) when I was searching for a simple baseline framework to use for creating a basic website where accessibility was important. I use Webpack with other projects (although I have to throw out the discalimer that I definitely do not consider myself a Webpack expert) and i wanted to have a Webpack based project to take advantage of the customizability/theming available with USWDS.
 
@@ -52,7 +52,7 @@ Add additional notes about how to deploy this on a live system
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
 
 ## Acknowledgments
 
