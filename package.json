@@ -1,0 +1,44 @@
+{
+  "name": "uswds-webpack-starter",
+  "version": "1.0.0",
+  "description": "A USWDS (United States Web Design System) starter project that uses Webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start:dev": "webpack-dev-server"
+  },
+  "keywords": ["USWDS", "United States Web Design System", "Webpack", "Starter Project"],
+  "author": {
+    "name": "Mike Foitzik",
+    "email": "mike@mifo.com",
+    "url": "https://www.mifo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfoitzik/uswds-webpack-starter"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "uswds": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.1",
+    "cssnano": "^4.1.10",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
