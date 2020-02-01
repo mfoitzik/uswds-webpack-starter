@@ -19,8 +19,8 @@ module.exports = {
         }),
         new CopyPlugin([
             { from: 'src/images', to: 'images' },
-            { from: 'src/css/doNotModify/img', to: 'img' },
-            { from: 'src/css/doNotModify/fonts', to: 'fonts' }
+            { from: 'node_modules/uswds/dist/img', to: 'img' },
+            { from: 'node_modules/uswds/dist/fonts', to: 'fonts' }
         ]),
         new CleanWebpackPlugin()
       

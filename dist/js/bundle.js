@@ -468,14 +468,14 @@ eval("var logLevel = \"info\";\n\nfunction dummy() {}\n\nfunction shouldLog(leve
 
 /***/ }),
 
-/***/ "./src/css/mystyles.scss":
-/*!*******************************!*\
-  !*** ./src/css/mystyles.scss ***!
-  \*******************************/
+/***/ "./src/css/styles.scss":
+/*!*****************************!*\
+  !*** ./src/css/styles.scss ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/css/mystyles.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/css/styles.scss?");
 
 /***/ }),
 
@@ -487,7 +487,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_mystyles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/mystyles.scss */ \"./src/css/mystyles.scss\");\n/* harmony import */ var _css_mystyles_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_mystyles_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n__webpack_require__(/*! uswds */ \"./node_modules/uswds/dist/js/uswds.min.js\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/styles.scss */ \"./src/css/styles.scss\");\n/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_styles_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n__webpack_require__(/*! uswds */ \"./node_modules/uswds/dist/js/uswds.min.js\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 

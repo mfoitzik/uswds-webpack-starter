@@ -1,3 +1,3 @@
-import '../css/mystyles.scss';
+import '../css/styles.scss';
 
 require("uswds");
