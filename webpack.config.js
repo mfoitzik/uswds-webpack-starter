@@ -5,18 +5,33 @@ const CopyPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: './src/js/index.js',
+    entry: {
+      index1: './src/js/index1.js',
+      index2: './src/js/index2.js',
+      index3: './src/js/index3.js'
+    },
     // Path and filename of your result bundle.
     // Webpack will bundle all JavaScript into this file
     plugins: [
       
         new MiniCssExtractPlugin({
-          filename: "css/bundle.css"
+          filename: "css/[name].css"
         }),
         new HtmlWebpackPlugin({
-            filename: "index.html",
-            template: "src/index.html"
+          chunks: ['index1'],
+          filename: "index1.html",
+            template: "src/index1.html"
         }),
+        new HtmlWebpackPlugin({
+          chunks: ['index2'],
+          filename: "index2.html",
+          template: "src/index2.html"
+      }),
+      new HtmlWebpackPlugin({
+        chunks: ['index3'],
+        filename: "index3.html",
+        template: "src/index3.html"
+    }),
         new CopyPlugin([
             { from: 'src/images', to: 'images' },
             { from: 'node_modules/uswds/dist/img', to: 'img' },
@@ -30,13 +45,13 @@ module.exports = {
         compress: true,
         writeToDisk:true,
         historyApiFallback: {
-          index: 'index.html',
+          index: 'index1.html',
         },
         port: 9000
       },
       output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'js/bundle.js'
+        filename: 'js/[name].js'
     },
     module: {
       rules: [
@@ -68,7 +83,10 @@ module.exports = {
                 },
                 {
                     // Then we apply postCSS fixes like autoprefixer and minifying
-                    loader: "postcss-loader"
+                    loader: "postcss-loader",
+                    options: {
+                      sourceMap: true
+                    }
                 },
                 {
                     // First we transform SASS to standard CSS
@@ -76,6 +94,7 @@ module.exports = {
                     options: {
                         implementation: require("node-sass"),
                         sassOptions: {
+                          sourceMap: true,
                           includePaths: [
                             //join(dirname(module.filename), 'node_modules'),
                             //join(dirname(module.filename), 'node_modules/uswds/dist/scss')

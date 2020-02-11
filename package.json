@@ -8,7 +8,12 @@
     "build": "webpack --mode production",
     "start:dev": "webpack-dev-server"
   },
-  "keywords": ["USWDS", "United States Web Design System", "Webpack", "Starter Project"],
+  "keywords": [
+    "USWDS",
+    "United States Web Design System",
+    "Webpack",
+    "Starter Project"
+  ],
   "author": {
     "name": "Mike Foitzik",
     "email": "mike@mifo.com",
@@ -20,6 +25,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "postcss-import": "^12.0.1",
     "uswds": "^2.4.0"
   },
   "devDependencies": {
