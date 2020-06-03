@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="547.85mm" height="204.15mm" version="1.1" viewBox="0 0 547.85 204.15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient4632" x1="3.751" x2="206.4" y1="145.81" y2="145.81" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#1d2e33" offset="0"/>
+   <stop stop-color="#39505a" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-16.282 -43.733)">
+  <g fill-rule="evenodd">
+   <path transform="rotate(90 105.08 145.81)" d="m155.73 232.74-100.61 0.3959-50.649-86.935 49.963-87.33 100.61-0.3959 50.649 86.935z" fill="url(#linearGradient4632)" opacity=".795" stroke="#ffef44" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.929" style="paint-order:fill markers stroke"/>
+   <path transform="matrix(1.0197 0 0 .99001 20.939 17.869)" d="m-98.452 86.467h-125.13l24.39-76.351h76.351z" fill="#1e1e1e" opacity=".795" stroke="#000400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.429" style="paint-order:fill markers stroke"/>
+   <path transform="matrix(2.1977 -.076745 .04653 1.3324 -133.3 -66.387)" d="m103.93 221.4-33.64-34.396 34.396-33.64 33.64 34.396z" fill="#2aafc0" style="paint-order:fill markers stroke"/>
+  </g>
+  <path d="m104.68 54.647v145.64l-75.492-43.9v-57.844z" fill="#fff" fill-opacity=".19583" fill-rule="evenodd" style="paint-order:fill markers stroke"/>
+  <path d="m104.68 54.647v145.64l75.492-43.9v-57.844z" fill="#fff" fill-opacity=".43333" fill-rule="evenodd" style="paint-order:fill markers stroke"/>
+  <g font-family="sans-serif" font-size="10.583px" letter-spacing="0px" word-spacing="0px">
+   <text x="45.73497" y="136.89557" fill="#ffef44" stroke="#ffffff" stroke-width=".5" style="line-height:57.70000219%" xml:space="preserve"><tspan x="45.73497" y="136.89557" fill="#ffef44" stroke="#ffffff" stroke-width=".5"><tspan x="45.73497" y="136.89557" fill="#ffef44" font-family="'Newtext Rg BT'" font-size="77.611px" stroke="#ffffff" stroke-width=".5">B</tspan></tspan></text>
+   <text x="111.43014" y="158.32384" fill="#ffef44" stroke="#ffffff" stroke-width=".5" style="line-height:57.70000219%" xml:space="preserve"><tspan x="111.43014" y="158.32384" fill="#ffef44" stroke="#ffffff" stroke-width=".5"><tspan x="111.43014" y="158.32384" fill="#ffef44" font-family="'Newtext Rg BT'" font-size="77.611px" stroke="#ffffff" stroke-width=".5">A</tspan></tspan></text>
+   <g stroke-width=".26458px">
+    <text x="207.53841" y="161.0802" fill="#223439" fill-opacity=".79608" style="line-height:57.70000219%" xml:space="preserve"><tspan x="207.53841" y="161.0802" stroke-width=".26458px"><tspan x="207.53841" y="161.0802" fill="#092129" fill-opacity=".79608" font-family="'Newtext Rg BT'" font-size="130.18px" letter-spacing="0px" stroke-width=".26458px">Base</tspan></tspan></text>
+    <text x="212.45216" y="203.6132" fill="#000000" style="line-height:57.70000219%" xml:space="preserve"><tspan x="212.45216" y="203.6132" stroke-width=".26458px"><tspan x="212.45216" y="203.6132" fill="#092129" fill-opacity=".79608" font-family="'Newtext Rg BT'" font-size="56.444px" stroke-width=".26458px">Application</tspan></tspan></text>
+    <text x="521.25842" y="99.520126" fill="#092128" fill-opacity=".79608" style="line-height:57.70000219%" xml:space="preserve"><tspan x="521.25842" y="99.520126" stroke-width=".26458px"><tspan x="521.25842" y="99.520126" fill="#092128" fill-opacity=".79608" font-family="'Newtext Rg BT'" font-size="28.222px" stroke-width=".26458px">TM</tspan></tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>

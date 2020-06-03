@@ -8,7 +8,8 @@ module.exports = {
     entry: {
       index1: './src/js/index1.js',
       index2: './src/js/index2.js',
-      index3: './src/js/index3.js'
+      index3: './src/js/index3.js',
+      docpage: './src/js/docpage.js'
     },
     // Path and filename of your result bundle.
     // Webpack will bundle all JavaScript into this file
@@ -26,12 +27,22 @@ module.exports = {
           chunks: ['index2'],
           filename: "index2.html",
           template: "src/index2.html"
-      }),
-      new HtmlWebpackPlugin({
-        chunks: ['index3'],
-        filename: "index3.html",
-        template: "src/index3.html"
-    }),
+        }),
+        new HtmlWebpackPlugin({
+          chunks: ['index3'],
+          filename: "index3.html",
+          template: "src/index3.html"
+        }),
+        new HtmlWebpackPlugin({
+          chunks: ['docpage'],
+          filename: "docpage.html",
+          template: "src/docpage.html"
+        }),
+        new HtmlWebpackPlugin({
+          chunks: ['docpage'],
+          filename: "landingpage.html",
+          template: "src/landingpage.html"
+        }),
         new CopyPlugin([
             { from: 'src/images', to: 'images' },
             { from: 'node_modules/uswds/dist/img', to: 'img' },

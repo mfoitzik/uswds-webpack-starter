@@ -38,8 +38,8 @@ Show updates and notifications.
 ----------------------------------------
 */
 
-$theme-show-compile-warnings: true;
-$theme-show-notifications: true;
+$theme-show-compile-warnings: false;
+$theme-show-notifications: false;
 
 /*
 ----------------------------------------
@@ -87,10 +87,10 @@ Focus styles
 ----------------------------------------
 */
 
-$theme-focus-color: "blue-40v";
+$theme-focus-color: "red-50";
 $theme-focus-offset: 0;
 $theme-focus-style: solid;
-$theme-focus-width: 0.5;
+$theme-focus-width: .5;
 
 /*
 ----------------------------------------
