@@ -43,8 +43,14 @@ module.exports = {
           filename: "landingpage.html",
           template: "src/landingpage.html"
         }),
+        new HtmlWebpackPlugin({
+          chunks: ['docpage'],
+          filename: "QuasarFrameworkTreeConfigurator.html",
+          template: "src/QuasarFrameworkTreeConfigurator.html"
+        }),
         new CopyPlugin([
             { from: 'src/images', to: 'images' },
+            { from: 'src/statics', to: 'statics' },
             { from: 'node_modules/uswds/dist/img', to: 'img' },
             { from: 'node_modules/uswds/dist/fonts', to: 'fonts' }
         ]),

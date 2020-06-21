@@ -1,6 +1,6 @@
 # USWDS (United States Web Design System) Webpack Starter Project
 
-I stumbled upon the USWDS (United States Web Design System) when I was searching for a simple baseline framework to use for creating a basic website where accessibility was important. I use Webpack with other projects (although I have to throw out the discalimer that I definitely do not consider myself a Webpack expert) and i wanted to have a Webpack based project to take advantage of the customizability/theming available with USWDS.
+I stumbled upon the USWDS (United States Web Design System) when I was searching for a simple baseline framework to use for creating a basic website where accessibility was important. I use Webpack with other projects (although I have to throw out the discalimer that I definitely do not consider myself a Webpack expert) and I wanted to have a Webpack based project to take advantage of the customizability/theming available with USWDS.
 
 This starter project atempts to simplify getting started for anyone else who would like to use the USWDS in this was along with Webpack as the build tool.
 
